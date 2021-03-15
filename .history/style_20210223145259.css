@@ -1,0 +1,49 @@
+:root{
+    --font-family-title: "warnesregular"
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+
+.nav{
+    background: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px 0;
+}
+
+.nav *{
+    color: #fff;
+}
+
+.nav_left a{
+    font-family: var(--font-family-title);
+    font-size: 32px;
+}
+
+.nav_link{
+    display: flex;
+}
+
+.nav_link li a{
+    color: rgb(233, 233, 233);
+    margin: 0 10px;
+
+}
+
+.image_thumbnail{
+    background-image: url('./header.jpg');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    height: 90vh;
+}
+
+.content_thumbnail

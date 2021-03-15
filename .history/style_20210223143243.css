@@ -1,0 +1,24 @@
+:root{
+    --font-family-title: "warnesregular"
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+.nav{
+    background: black;
+}
+
+.nav *{
+    color: #fff;
+}
+
+.nav_left a{
+    font-family: var(--font-family-title);
+}

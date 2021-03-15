@@ -1,0 +1,40 @@
+:root{
+    --font-family-title: "warnesregular"
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+
+.nav{
+    background: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px 0;
+}
+
+.nav *{
+    color: #fff;
+}
+
+.nav_left a{
+    font-family: var(--font-family-title);
+    font-size: 32px;
+}
+
+.nav_link{
+    display: flex;
+}
+
+.nav_link li a{
+    padding: 0 15px;
+    text-align: right;
+    color: rgb(233, 233, 233);
+}
